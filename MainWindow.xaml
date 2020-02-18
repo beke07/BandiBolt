@@ -1,0 +1,17 @@
+﻿<Window x:Class="Bolt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bolt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Hozzáadás" HorizontalAlignment="Left" Margin="65,111,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox Text="{Binding Nev, Mode=TwoWay}" HorizontalAlignment="Left" Margin="65,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Text="{Binding Darabszam, Mode=TwoWay}" HorizontalAlignment="Left" Margin="65,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Text="{Binding VonalKod, Mode=TwoWay}" HorizontalAlignment="Left" Margin="65,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Áru" HorizontalAlignment="Left" Margin="65,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.499,0.9"/>
+
+    </Grid>
+</Window>
