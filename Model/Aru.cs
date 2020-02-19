@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bolt.Model
 {
-    [Table("Arucikkek")]
     public class Aru
     {
         public Guid Id { get; set; }

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bolt.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200218174823_Init")]
+    [Migration("20200219192353_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
